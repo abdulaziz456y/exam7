@@ -1,0 +1,101 @@
+.Products-list { 
+  background-color: white;
+  border: 2px solid green;
+
+  justify-content: space-between;
+  align-items:center ;
+  display: flex;
+  gap: 30px;
+
+}
+.priceses > p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.priceses {
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  width: 250px;
+  display: flex;
+  gap: 20px;
+  border: 1px solid green;
+  border-radius: 4px;
+}
+.button-price {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+.button-click {
+  transition: all 0.4s;
+  cursor: pointer;
+  color: green;
+  padding: 9px 20px;
+  border: solid green;
+  border-radius: 24px;
+}
+.button-click:hover {
+  transition: all 0.4s;
+  cursor: pointer;
+  color: rgb(19, 231, 19);
+  padding: 9px 20px;
+  border: solid rgb(19, 231, 19);
+  background-color: green;
+  border-radius: 24px;
+}
+.button-click-more {
+  cursor: pointer;
+  color: green;
+  padding: 9px 20px;
+  border: solid green;
+  border-radius: 24px;
+}
+.button-inner {
+  justify-content: center;
+  gap: 40px;
+  display: flex;
+}
+.name{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.number{
+  color: green;
+}
+p {
+  color: green;
+}
+.counter-product{
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  padding: 20px 30px;
+}
+.plus{
+  padding: 10px 10px;
+  color: green;
+  font-size: 15px;
+}
+.minus{
+  padding: 10px 10px;
+  color: green;
+  font-size: 15px;
+}
+.remove-button{
+  padding: 12px 20px;
+  border-radius: 12px 12px;
+}
+.Cart-list{
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.counter-product{
+  display: flex;
+  align-items: center;
+}

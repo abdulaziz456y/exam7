@@ -1,0 +1,23 @@
+.productsList {
+  display: grid;
+  grid-template-columns: 1 fr;
+}
+
+.container h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .productsList {
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+  }
+  .container h2 span {
+      color: #60b021;
+  }
+  .container h2 {
+      margin-top: 96px;
+  }
+}
